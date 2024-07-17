@@ -50,5 +50,5 @@ fn main() {
         .expect("Failed to create file");
     let _ = output_file.write(modified_text.as_bytes());
 
-    println!("Modified the {}, and saved the contents to {}", input_file, format!("{}_new.txt", new_file_name));
+    println!("\nModified the {}, and saved the contents to {}", input_file, format!("{}_new.txt", new_file_name));
 }

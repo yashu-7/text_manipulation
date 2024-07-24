@@ -11,7 +11,7 @@
 # To run it using cargo
 cargo run 1 examplefile.txt this that
 ```
-* Download the binary from target/debug/text_manipulation.exe
+* Download the binary from target/debug/text_manipulation.exe (it will be created after you run it with cargo the first time)
 ```
 # To run it using binary
 text_manipulation 2 story3.pdf meter meters 
